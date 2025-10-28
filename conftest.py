@@ -11,3 +11,4 @@ def pytest_runtest_makereport(item):
         driver = item.cls.driver
         screenshot = driver.get_screenshot_as_png()
         allure.attach(screenshot, name="Screenshot", attachment_type=AttachmentType.PNG)
+

@@ -27,3 +27,4 @@ class TestSortPrices:
 
         # Verify descending order
         sort_page.verify_sort_descending()
+

@@ -2,7 +2,8 @@ from appium import webdriver
 from appium.options.android import UiAutomator2Options
 
 
-def create_driver():
+def \
+        create_driver():
     options = UiAutomator2Options()
     options.platform_name = "Android"
     options.automation_name = "UiAutomator2"

@@ -4,7 +4,6 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
-
 class CartPage:
 
     product_image = (AppiumBy.ID, "com.saucelabs.mydemoapp.android:id/productIV")

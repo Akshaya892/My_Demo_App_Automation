@@ -4,7 +4,6 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
-
 class LoginPage:
     view_menu = (AppiumBy.ACCESSIBILITY_ID, "View menu")
     login_button = (AppiumBy.ACCESSIBILITY_ID, "Login Menu Item")

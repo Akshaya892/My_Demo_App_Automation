@@ -20,3 +20,4 @@ class TestProductCatalog:
         product_catalog_page = ProductCatalogPage(self.driver)
         product_catalog_page.open_product()
         product_catalog_page.verify_product_details()
+

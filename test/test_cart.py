@@ -18,5 +18,6 @@ class TestCart:
     @allure.title("VALIDATE CART: add a product, verify it appears correctly")
     def test_valid_login(self):
         cart_page = CartPage(self.driver)
-        cart_page.open_product()
+        cart_page.open
+        _product()
         cart_page.verify_cart_page()

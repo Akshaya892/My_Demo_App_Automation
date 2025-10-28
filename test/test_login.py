@@ -18,7 +18,8 @@ class TestLogin:
     @allure.title("LOGIN PAGE VALIDATION")
     def test_valid_login(self):
         login_page = LoginPage(self.driver)
-        login_page.open_login_menu()
+        login_page.open_logi
+        n_menu()
         login_page.login()
         login_page.logout()
     
