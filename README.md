@@ -12,7 +12,10 @@ The framework follows the Page Object Model (POM) design pattern for maintainabi
 4.Sorting: apply sorting (e.g. by price) and verify order
 
 How to Run?Please use below commands
-pytest test/test_login.py --alluredir=reports/allure-results
-pytest test/test_sort.py --alluredir=reports/allure-results
-pytest test/test_product_catalog.py --alluredir=reports/allure-results
-pytest test/test_cart.py --alluredir=reports/allure-results
+1.pytest test/test_login.py --alluredir=reports/allure-results
+
+2.pytest test/test_sort.py --alluredir=reports/allure-results
+
+3.pytest test/test_product_catalog.py --alluredir=reports/allure-results
+
+4.pytest test/test_cart.py --alluredir=reports/allure-results
